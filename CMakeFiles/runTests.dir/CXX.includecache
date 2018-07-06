@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/barth/installgtest/tests.cpp
+whattotest.c
+/home/barth/installgtest/whattotest.c
+gtest/gtest.h
+-
+
+/home/barth/installgtest/whattotest.c
+math.h
+-
+

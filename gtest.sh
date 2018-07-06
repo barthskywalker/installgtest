@@ -1,6 +1,10 @@
 #!/bn/bash
-
-
+##############################
+#   script to install gtest  #
+#   By Barth O'Keeffe        #
+#   06/07/2018               #
+##############################    
+sudo apt-get install g++
 
 sudo apt-get install libgtest-dev
 
